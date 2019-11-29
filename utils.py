@@ -13,11 +13,11 @@ def make_eig_spect(N, beta=1, alpha=2, flag=1):
         D = np.linspace(1,N,N)**(-alpha)     
     return D
 
-def calc_emp_eigs(D, lambd=0, num_trials = 100):
+def calc_emp_eigs(D, P, lambd=0, num_trials = 100):
     # for given eigenvalue spectrum D (of the Kernel K) 
     # calculates the eigenvalues of the (expected) empirical Kernel for various 
     # levels of implicit regularization, i.e. due to number of features
-    N = D.size; P = N;    
+    N = D.size; 
     C = np.zeros((P,N))
     for P_temp in range(P): 
         P_in = P_temp + 1
