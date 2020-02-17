@@ -1,4 +1,4 @@
-# Implicit Regularization of Gaussian Random Features
+# Implicit Regularization in Random Feature Models
 We analyze the distribution of $\lambda$-RF$ (Random Features) predictor and in particular, how close it is to the $\tilde{\lambda}$-KRR (Kernel Ridge Regression) predictor.
 
 We provide Jupyter notebooks to replicate the plots found in the paper and explore the regimes beyond what is presented in the paper. In particular, we provide:
