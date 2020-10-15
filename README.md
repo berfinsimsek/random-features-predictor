@@ -18,8 +18,8 @@ The RF Predictor on a sinusodial dataset for three Kernels and number of feature
 
 (3) movie-eigs-A.ipynb
 
-We show two approximations for the eigenvalues of the average hat matrix: (1) the classical approximation when the number of features is infinity and when the effective ridge converges to the original ridge, (2) our approximation when the number of features is finite with the effective ridge bigger than the original ridge.
+We show two approximations for the eigenvalues of the average hat matrix: (1) the classical approximation when the number of features is infinity and when the effective ridge converges to the original ridge, (2) our approximation when the number of features is finite and when the effective ridge bigger than the original ridge.
 
 (4) utils.py
 
-Helper functions in particular a fixed point solver for the effective ridge.
+Helper functions are in here, in particular a fixed point solver for the effective ridge.
