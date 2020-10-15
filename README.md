@@ -1,12 +1,16 @@
-# Implicit Regularization in Random Feature Models
-We analyze the distribution of $\lambda$-RF$ (Random Features) predictor and in particular, how close it is to the $\tilde{\lambda}$-KRR (Kernel Ridge Regression) predictor.
+# Random Features (RF) Predictor
 
-We provide Jupyter notebooks to replicate the plots found in the paper and explore the regimes beyond what is presented in the paper. In particular, we provide:
+This is the repo for our ICML paper "Implicit Regularization of Random Features Models"
 
-(1) RF-predictor.ipynb
+https://proceedings.icml.cc/paper/2020/hash/de043a5e421240eb846da8effe472ff1
 
-For a sinusoidal data, presents how the distribution of the $\lambda$-RF$ predictor changes for different $\lambda$ and $P$.
+We provide Jupyter notebooks to replicate the plots found in the paper and see how the effective ridge behaves for different spectrums, ridge, and number of features which in turns change the behavior of the RF Predictor.
 
-(2) evolution-plots.ipynb
+(1) evolution-eff-ridge.ipynb
+Some figures from the appendix are presented. In particular, we investigate the behavior of the effective ridge and its derivative for eigenvalue spectrums with exponential and polynomial decays.
 
-We investigate the behavior of the effective and its derivative for different eigenvalue spectrums $D$ (i.e. with exponential and polynomial decays). We also show that the eigenvalues of $\mathbb E A_{\lambda}$ converge to $d_i / d_i + \tilde{\lambda}$.
+(2) movie-RF-pred.ipynb
+The RF predictor on sinusodial dataset is presented.
+
+(2) movie-eigs-A.ipynb
+We show two approximations for the eigenvalues of the average hat matrix: (1) the classical approximation when the number of features is infinity and when the effective ridge converges to the original ridge, (2) our approximation when the number of features is finite with the effective ridge bigger than the original ridge.
