@@ -14,7 +14,7 @@ Some figures from the appendix are presented. In particular, we investigate the 
 
 (2) movie-RF-pred.ipynb
 
-The RF Predictor on a sinusodial dataset for different Kernels and number of features for the ridgeless case is presented. We observe the Double-Descent phenomenon in the variance of the RF Predictor.  
+The RF Predictor on a sinusodial dataset for three Kernels and number of features for the ridgeless case is presented. We observe the Double-Descent phenomenon in the variance of the RF Predictor.  
 
 (3) movie-eigs-A.ipynb
 
