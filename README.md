@@ -4,7 +4,7 @@ This is the repo for our ICML paper "Implicit Regularization of Random Features 
 
 https://proceedings.icml.cc/paper/2020/hash/de043a5e421240eb846da8effe472ff1
 
-We provide Jupyter notebooks to replicate the plots found in the paper and see how the effective ridge behaves for different spectrums, ridge, and number of features which in turns change the behavior of the RF Predictor.
+We provide Jupyter notebooks to replicate the plots found in the paper and see how the effective ridge behaves for different spectrums, ridge, and number of features. In addition, we present the mean and the variance of the RF Predictor in the function space on three Kernels. 
 
 (1) evolution-eff-ridge.ipynb
 Some figures from the appendix are presented. In particular, we investigate the behavior of the effective ridge and its derivative for eigenvalue spectrums with exponential and polynomial decays.
